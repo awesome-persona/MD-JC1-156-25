@@ -1,10 +1,10 @@
+package lesson06.modifiers.inside;
+
 import lesson06.modifiers.Main;
 
-public class MyFirstJavaClass {
+public class AnotherMain {
 
     public static void main(String[] args) {
-        System.out.println("Hello students!!!");
-
         int a = Main.a;
     }
 }

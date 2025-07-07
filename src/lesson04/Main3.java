@@ -40,5 +40,10 @@ public class Main3 {
         // 1024 * 1024 * 1024 * 8 * 4 int (bits)
         // 1024 * 1024 * 1024 * 8 * 2 short (bits)
         // 1024 * 1024 * 1024 * 8 bits
+
+
+        int length = arr.length;
+        int length2 = t.length;
+
     }
 }
