@@ -62,12 +62,12 @@ public class Main {
 
         System.out.println(c / 7); //  3     3.428
         System.out.println(c % 7); //  3     24 - 7 * 3 (21)= 3
-        int y= 11;
-        int x = 5;
+        int y= 111;
+        int x = 55;
 
         int i = x & y;
         x = 10;
-        x += 4;
+        x -= 4;
         x = x + 4;
         x *=6;
         x = x * 6;
