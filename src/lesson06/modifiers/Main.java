@@ -1,5 +1,8 @@
 package lesson06.modifiers;
 
+//import java.lang.*;
+
+
 public class Main {
 
     public       static int a = 1;
@@ -31,7 +34,8 @@ public class Main {
         a = 6;
         d = 6;
 //        f = 6;
-        Main main1 = new Main();
+        Main main1;
+        main1 = new Main();
         Main main2 = new Main();
         Main main3 = new Main();
         System.out.println();
