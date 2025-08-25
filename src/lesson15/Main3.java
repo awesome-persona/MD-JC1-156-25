@@ -2,12 +2,16 @@ package lesson15;
 
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class Main3 {
 
     public static void main(String[] args) throws Exception {
         String fileName = "somefile.txt";
+
+        System.out.println();
+        InputStream in = System.in;
 
 
         try (FileWriter writer = new FileWriter(fileName, true)){

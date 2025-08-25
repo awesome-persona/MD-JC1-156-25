@@ -14,7 +14,7 @@ public class Point3D extends Point {
 
     @Override
     public String toString() {
-        return String.format("(%s, %s, %s)", x, y, z);
+        return String.format("(%s, %s, %s)",getX(), getY(), z);
     }
 
     static {
@@ -27,8 +27,8 @@ public class Point3D extends Point {
 
     public static void main(String[] args) {
         Point3D point3D = new Point3D(5,7,8);
-        int x1 = point3D.x;
-        int y1 = point3D.y;
+        int x1 = point3D.getX();
+        int y1 = point3D.getY();
         int z1 = point3D.z;
 
         System.out.println(point3D);

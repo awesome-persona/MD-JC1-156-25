@@ -16,8 +16,8 @@ public class Main2 {
         try {
             fos = new FileOutputStream("src/data.txt");        //
                                                                                   // Elena
-            String s = "/Users/anarut/projects/it-academy/javaWork/src/data.txt"; // 2 Alex Andrey
-            String wins = "D:Users/anarut/projects/it-academy/javaWork/src/data.txt";
+            String s = "/Users/anarut/projects/it-academy/javaWork/src/.data.txt"; // 2 Alex Andrey
+            String wins = "D:Users/anarut/projects/it-academy/javaWork/src/.data.txt";
             // 1  относительный путь
             // 2  полный (absolute path)
 
