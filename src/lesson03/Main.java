@@ -1,5 +1,7 @@
 package lesson03;
 
+import lesson22.singleton.Singleton;
+
 import java.util.Scanner;
 
 public class Main {
@@ -42,5 +44,7 @@ public class Main {
             default:
                 System.out.println("пн");
         }
+
+        Singleton instance = Singleton.getInstance();
     }
 }
