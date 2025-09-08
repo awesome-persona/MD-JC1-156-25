@@ -5,6 +5,8 @@ import lesson22.singleton.Singleton;
 public class Main1 {
 
     public static void main(String[] args) {
+
+
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 

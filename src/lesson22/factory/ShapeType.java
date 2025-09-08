@@ -4,5 +4,7 @@ public enum ShapeType {
     LINE,
     SQUARE,
     STAR,
-    HEXAGON
+    HEXAGON,
+    ARROW,
+    DIALOG
 }
